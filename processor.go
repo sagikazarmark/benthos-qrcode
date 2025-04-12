@@ -90,7 +90,7 @@ func newProcessor(conf *service.ParsedConfig, _ *service.Resources) (service.Pro
 
 	var options []func(config *goqr.QrCodeImgConfig)
 
-	xmlHeader, err := conf.FieldBool("xmlHeader")
+	xmlHeader, err := conf.FieldBool("svg", "xmlHeader")
 	if err != nil {
 		return nil, err
 	}
@@ -99,7 +99,7 @@ func newProcessor(conf *service.ParsedConfig, _ *service.Resources) (service.Pro
 		options = append(options, goqr.WithSVGXMLHeader(true))
 	}
 
-	optimal, err := conf.FieldBool("optimal")
+	optimal, err := conf.FieldBool("svg", "optimal")
 	if err != nil {
 		return nil, err
 	}
