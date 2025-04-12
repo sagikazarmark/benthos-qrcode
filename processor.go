@@ -78,12 +78,12 @@ func newProcessor(conf *service.ParsedConfig, _ *service.Resources) (service.Pro
 		return nil, err
 	}
 
-	light, err := conf.FieldString("light")
+	light, err := conf.FieldString("svg", "light")
 	if err != nil {
 		return nil, err
 	}
 
-	dark, err := conf.FieldString("dark")
+	dark, err := conf.FieldString("svg", "dark")
 	if err != nil {
 		return nil, err
 	}
