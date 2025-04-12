@@ -27,7 +27,25 @@ func main() {
 > [!TIP]
 > Read more about Benthos plugins [here](https://github.com/redpanda-data/redpanda-connect-plugin-example).
 
-TODO: add an example configuration
+Use the plugin in your Benthos configuration:
+
+```yaml
+input:
+  generate:
+    count: 1
+    mapping: |
+      root = "hello"
+
+pipeline:
+  processors:
+    - qrcode:
+        format: png
+
+output:
+  file:
+    path: out.png
+    codec: all-bytes
+```
 
 ## Development
 
