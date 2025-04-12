@@ -1,10 +1,8 @@
-# Benthos QR Code Plugin
+# [Benthos](https://github.com/redpanda-data/benthos) plugin: QR Code
 
 [![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/sagikazarmark/benthos-qrcode/ci.yaml?style=flat-square)](https://github.com/sagikazarmark/benthos-qrcode/actions/workflows/ci.yaml)
 ![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/sagikazarmark/benthos-qrcode?style=flat-square&color=61CFDD)
 [![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/sagikazarmark/benthos-qrcode/badge?style=flat-square)](https://deps.dev/go/github.com%252Fsagikazarmark%252Fbenthos-qrcode)
-
-**QR Code plugin for [Benthos](https://github.com/redpanda-data/benthos).**
 
 ## Usage
 
