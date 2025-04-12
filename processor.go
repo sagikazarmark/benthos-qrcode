@@ -32,7 +32,7 @@ func init() {
 				Default(10).
 				Description("Scale of image"),
 			service.NewIntField("border").
-				Default(4).
+				Default(0).
 				Description("Border of image"),
 			service.NewObjectField(
 				"svg",
