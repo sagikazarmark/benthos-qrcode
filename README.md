@@ -1,4 +1,4 @@
-# MY PROJECT
+# Benthos QR Code Plugin
 
 [![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/sagikazarmark/benthos-qrcode/ci.yaml?style=flat-square)](https://github.com/sagikazarmark/benthos-qrcode/actions/workflows/ci.yaml)
 [![go.dev reference](https://img.shields.io/badge/go.dev-reference-007d9c?logo=go&logoColor=white&style=flat-square)](https://pkg.go.dev/mod/github.com/sagikazarmark/benthos-qrcode)
