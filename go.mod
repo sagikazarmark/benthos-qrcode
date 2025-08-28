@@ -6,7 +6,7 @@ require (
 	github.com/hexops/autogold/v2 v2.3.0
 	github.com/piglig/go-qr v0.2.6
 	github.com/redpanda-data/benthos/v4 v4.51.0
-	github.com/stretchr/testify v1.10.0
+	github.com/stretchr/testify v1.11.1
 )
 
 require (
